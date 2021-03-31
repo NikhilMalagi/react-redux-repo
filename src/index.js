@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import AppHOC from "./AppHOC";
-// import Application from "./Application";
+import Application from "./render-eg/screencast/Application";
 import reducer from "./store/reducer";
 
 import { Provider } from "react-redux";
