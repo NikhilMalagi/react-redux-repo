@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgreen;
+  height: 30px;
+}
+
+.headerTitle {
+  display: flex;
+  flex-grow: 2;
+}
+.headerTitle > div {
+  padding: 10px;
+}
+
+.headerOptions {
+  display: flex;
+  flex-grow: 8;
+  justify-content: flex-end;
+}
+.headerOptions > div {
+  padding: 10px;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+  background-color: bisque;
+}
+
+.replymsg {
+  display: flex;
+  justify-content: flex-end;
+}
+.usermsg {
+  display: flex;
+}
+.msg {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.message {
+  display: flex;
+}
