@@ -1,0 +1,41 @@
+.playerCard {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 13px;
+}
+.selectedPlayerCard {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid green;
+  border-radius: 13px;
+}
+.delete {
+  display: flex;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.teamCard {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 200px);
+  width: 30vw;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.teamEntry {
+  display: flex;
+  padding: 5px;
+}
+.playerData {
+  margin: 0px 10px 0px 10px;
+}

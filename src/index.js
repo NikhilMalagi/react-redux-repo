@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import WhatsApp from "./whatsApp/WhatsApp";
 import AppHOC from "./AppHOC";
+import AppHooks from "./AppHooks";
 import Application from "./render-eg/screencast/Application";
 import reducer from "./store/reducer";
 
@@ -16,7 +18,7 @@ const store = createStore(reducer, applyMiddleware(sagaMiddleware));
 sagaMiddleware.run(watchAgeUp);
 ReactDOM.render(
   <Provider store={store}>
-    <AppHOC />
+    <WhatsApp />
   </Provider>,
   document.getElementById("root")
 );
